@@ -14,7 +14,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 
-## File descriptions
+## Data and Variables
 The dataset was extracted from a zipped file from UCI HAR.  Information about the features is detailed in features_info.txt. Analysis was performed on the following files.
 
 |Filename           |Description  |
@@ -38,9 +38,9 @@ The analysis did not use the raw signal data contained in the "Inertial Signals"
    * Data from training and test files in that order read and merged into a single data set for each of ``subject``, ``label`` and ``signals``. There was no missing or NA data in any of the observations.  
 2. Add appropriate header names
    * Header names ``id`` and ``desc`` assigned to data frames for ``feature`` and ``activity``.
-   * Header name ``id`` assigned to assigned to data frames for ``subject`` and ``label``.
+   * Header name ``id`` assigned to data frames for ``subject`` and ``label``.
+   * Header names for ``signals`` assigned via lookup to ``feature`` description.
 3. Manipulating the data
-   * Header names for ``signals`` assigned via lookup to ``feature`` description.  
    * Descriptive data from ``activity`` was added via lookup of the ``id`` of ``labels`` data frame.
    * List of ``feature`` descriptions that contained the exact strings "mean" or "std" in ``feature`` was extracted into ``useSignal``.
    * ``tidyData`` subset merges the subject, activity and mean and std dev signal for all observations.  
