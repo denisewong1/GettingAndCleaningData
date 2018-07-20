@@ -10,7 +10,7 @@ This repo contains an R script called ``run_analysis.R`` which does the followin
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The ``CodeBook.md`` describes the variables, data and analysis performed on the data set.  This repo also includes my output file called ``results.csv``.
+The ``CodeBook.md`` describes the variables, data and analysis performed on the data set.  This repo also includes my output file called ``results.txt``.
 
 
 
@@ -18,7 +18,7 @@ The ``CodeBook.md`` describes the variables, data and analysis performed on the 
 1. Download the zipped data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unzip all the files into a ``data`` directory
 3. Run the script ``run_analysis.R`` from the same ``data`` directory
-4. The script outputs a file ``results.csv`` in the ``data`` directory
+4. The script outputs a file ``results.txt`` in the ``data`` directory
 
 
 
