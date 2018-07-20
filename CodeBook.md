@@ -35,7 +35,7 @@ The analysis did not use the raw signal data contained in the "Inertial Signals"
 ## Processing steps
 1. Reading files into data frames
    * Data from lookup files read into ``feature`` and ``activity``. 
-   * Data from training and test files in that order read and merged into a single data set ``subject``, ``label`` and ``signals``. There was no missing or NA data in any of the observations.  
+   * Data from training and test files in that order read and merged into a single data set for each of ``subject``, ``label`` and ``signals``. There was no missing or NA data in any of the observations.  
 2. Add appropriate header names
    * Header names ``id`` and ``desc`` assigned to data frames for ``feature`` and ``activity``.
    * Header name ``id`` assigned to assigned to data frames for ``subject`` and ``label``.
