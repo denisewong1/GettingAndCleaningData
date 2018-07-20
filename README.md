@@ -14,7 +14,7 @@ To run the analysis on the data set
 1. Download the zipped data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unzip all the files into a ``data`` directory
 3. Run the script ``run_analysis.R`` from the same ``data`` directory
-4. The script outputs a file ``results.csv``
+4. The script outputs a file ``results.csv`` in the ``data`` directory
 
 
 
