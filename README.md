@@ -10,7 +10,7 @@ This repo contains an R script called ``run_analysis.R`` which does the followin
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The ``CodeBook.md`` describes the variables, data and analysis performed on the data set.
+The ``CodeBook.md`` describes the variables, data and analysis performed on the data set.  This repo also includes my output file called ``results.csv``.
 
 
 
