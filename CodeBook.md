@@ -46,6 +46,6 @@ The analysis did not use the raw signal data contained in the "Inertial Signals"
    * ``tidyData`` subset merges the subject, activity and mean and std dev signal for all observations.  
 4. Calculate mean for subset of data
    * ``results`` summary of averages of all observations for each signal was calculated for each activity and each subject.
-5. Write data frame to output file ``results.csv``.
+5. Write data frame to output file ``results.txt``.
 
 
